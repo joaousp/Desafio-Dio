@@ -1,6 +1,7 @@
 
 body{
-    background-color: gray;
+    background-color: lightgoldenrodyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .photo_image{
     border-radius: 50px;
@@ -8,8 +9,18 @@ body{
 }
 
 
+
 #Titulo, .Subtitulos, .Pos-subtitle{
-    color: blue;
+    color: #505050;
+}
+
+#Titulo{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: line-through;
+    color: #505050;
 }
 .Pos-subtitle{
     font-size: 16px;
@@ -29,6 +40,7 @@ body{
 .post_content{
     margin: 0;
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 .post_image{
