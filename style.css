@@ -46,3 +46,13 @@ a{
 .post_image{
     margin-bottom: 10px;
 }
+
+ul{
+    list-style-type: none;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
